@@ -1,0 +1,8 @@
+# Runtime
+reportlab>=4.0,<5          # PDF layout and rendering (tested with 4.5.1)
+svglib>=1.5,<3             # SVG logo -> vector drawing (tested with 2.1.0)
+pillow>=9.0                # PNG/JPG logos (also a ReportLab dependency)
+
+# Development / testing only
+pytest>=7.0                # test runner
+pymupdf>=1.23              # PDF text/geometry inspection in tests and tools/compare_pdfs.py

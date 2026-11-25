@@ -1,0 +1,1845 @@
+{
+  "success": true,
+  "raw_response": {
+    "result": {
+      "cibilData": {
+        "GetCustomerAssetsResponse": {
+          "GetCustomerAssetsSuccess": {
+            "Asset": {
+              "CreationDate": "2026-11-24T23:30:00+05:30",
+              "TrueLinkCreditReport": {
+                "Borrower": {
+                  "BorrowerName": {
+                    "Name": {
+                      "Forename": "DILIP YADAVRAO MHASKE"
+                    }
+                  },
+                  "Birth": {
+                    "date": "1974-06-05+05:30"
+                  },
+                  "Gender": "Male",
+                  "CreditScore": {
+                    "riskScore": "664",
+                    "scoreName": "CIBILTransUnionScore3",
+                    "CreditScoreFactor": [
+                      {
+                        "FactorText": [
+                          "HIGH PROPORTION OF OUTSTANDING TRADES"
+                        ],
+                        "Factor": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        }
+                      },
+                      {
+                        "FactorText": [
+                          "RECENT HIGH BALANCE BUILD ON BANKCARD TRADES"
+                        ],
+                        "Factor": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        }
+                      }
+                    ]
+                  },
+                  "IdentifierPartition": {
+                    "Identifier": [
+                      {
+                        "ID": {
+                          "Id": "CKDPM9408D",
+                          "IdentifierName": "TaxId"
+                        }
+                      },
+                      {
+                        "ID": {
+                          "Id": "NOT DISCLOSED",
+                          "IdentifierName": "UID"
+                        }
+                      },
+                      {
+                        "ID": {
+                          "Id": "943988290",
+                          "IdentifierName": "SocialId"
+                        }
+                      },
+                      {
+                        "ID": {
+                          "Id": "NIL8522849",
+                          "IdentifierName": "VoterId"
+                        }
+                      },
+                      {
+                        "ID": {
+                          "Id": "20045550513189",
+                          "IdentifierName": "CkycId"
+                        }
+                      }
+                    ]
+                  },
+                  "BorrowerTelephone": [
+                    {
+                      "PhoneNumber": {
+                        "Number": "9665149822"
+                      },
+                      "PhoneType": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "03"
+                      }
+                    },
+                    {
+                      "PhoneNumber": {
+                        "Number": "9665149822"
+                      },
+                      "PhoneType": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "01"
+                      }
+                    },
+                    {
+                      "PhoneNumber": {
+                        "Number": "9503705158"
+                      },
+                      "PhoneType": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "03"
+                      }
+                    },
+                    {
+                      "PhoneNumber": {
+                        "Number": "7218694558"
+                      },
+                      "PhoneType": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "01"
+                      }
+                    }
+                  ],
+                  "EmailAddress": {
+                    "Email": "NOMAIL@NOMAIL.COM"
+                  },
+                  "BorrowerAddress": [
+                    {
+                      "CreditAddress": {
+                        "StreetAddress": "AT.POST.DEHALGAVHAN TAL.JAFRABAD ,DIST. JALNA ,, , , JALNA",
+                        "City": "",
+                        "Region": "27",
+                        "PostalCode": "431208"
+                      },
+                      "Dwelling": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "03"
+                      },
+                      "Ownership": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "dateReported": "2022-07-13+05:30"
+                    },
+                    {
+                      "CreditAddress": {
+                        "StreetAddress": "JALNA JALNA JALNA JALNA",
+                        "City": "",
+                        "Region": "27",
+                        "PostalCode": "431203"
+                      },
+                      "Dwelling": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "02"
+                      },
+                      "Ownership": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "dateReported": "2020-02-07+05:30"
+                    },
+                    {
+                      "CreditAddress": {
+                        "StreetAddress": "ZILLA PARISHAD SCHOOL AT POST DEVGAVAN K ENDRA DONGAON TAL JAFRABAD DIST JALNA AURANGABAD",
+                        "City": "",
+                        "Region": "27",
+                        "PostalCode": "431208"
+                      },
+                      "Dwelling": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "04"
+                      },
+                      "Ownership": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "dateReported": "2019-02-28+05:30"
+                    },
+                    {
+                      "CreditAddress": {
+                        "StreetAddress": "AMBEDKAR NAGAR TEMBHURNI",
+                        "City": "",
+                        "Region": "27",
+                        "PostalCode": "431208"
+                      },
+                      "Dwelling": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "02"
+                      },
+                      "Ownership": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "dateReported": "2018-10-30+05:30"
+                    }
+                  ],
+                  "Employer": {
+                    "account": "05",
+                    "dateReported": "2026-11-09+05:30",
+                    "OccupationCode": {
+                      "abbreviation": "",
+                      "description": "",
+                      "rank": "100000",
+                      "symbol": ""
+                    }
+                  }
+                },
+                "ReferenceKey": "12063880550",
+                "TradeLinePartition": [
+                  {
+                    "Tradeline": {
+                      "creditorName": "DEOGIRI",
+                      "accountNumber": "081250004002996",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "3"
+                      },
+                      "dateOpened": "2014-03-12+05:30",
+                      "dateReported": "2026-09-30+05:30",
+                      "dateClosed": "",
+                      "highBalance": "200000",
+                      "currentBalance": "210349",
+                      "writtenOffPrincipal": "201881",
+                      "writtenOffAmtTotal": "210349",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "02"
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "206115",
+                        "interestRate": "-1.00",
+                        "dateLastPayment": "2018-03-09+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "206115",
+                        "EMIAmount": "7200",
+                        "termMonths": "36",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2026-09-01+05:30",
+                              "status": "900"
+                            },
+                            "2": {
+                              "date": "2026-08-01+05:30",
+                              "status": "900"
+                            },
+                            "3": {
+                              "date": "2026-07-01+05:30",
+                              "status": "900"
+                            }
+                          },
+                          "startDate": "2026-09-01+05:30",
+                          "endDate": "2026-07-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "SBI",
+                      "accountNumber": "00000043948571604",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2025-03-27+05:30",
+                      "dateReported": "2026-11-09+05:30",
+                      "dateClosed": "",
+                      "highBalance": "1209000",
+                      "currentBalance": "1048025",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "21435",
+                        "interestRate": "12.80",
+                        "dateLastPayment": "",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "-1",
+                        "EMIAmount": "21863",
+                        "termMonths": "84",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2026-11-01+05:30",
+                              "status": "029"
+                            },
+                            "2": {
+                              "date": "2026-10-01+05:30",
+                              "status": "029"
+                            },
+                            "3": {
+                              "date": "2026-09-01+05:30",
+                              "status": "059"
+                            },
+                            "4": {
+                              "date": "2026-08-01+05:30",
+                              "status": "059"
+                            },
+                            "5": {
+                              "date": "2026-07-01+05:30",
+                              "status": "059"
+                            },
+                            "6": {
+                              "date": "2026-06-01+05:30",
+                              "status": "059"
+                            },
+                            "7": {
+                              "date": "2026-05-01+05:30",
+                              "status": "029"
+                            },
+                            "8": {
+                              "date": "2026-04-01+05:30",
+                              "status": "029"
+                            },
+                            "9": {
+                              "date": "2026-03-01+05:30",
+                              "status": "029"
+                            },
+                            "10": {
+                              "date": "2026-02-01+05:30",
+                              "status": "059"
+                            },
+                            "11": {
+                              "date": "2026-01-01+05:30",
+                              "status": "059"
+                            },
+                            "12": {
+                              "date": "2025-12-01+05:30",
+                              "status": "059"
+                            },
+                            "13": {
+                              "date": "2025-11-01+05:30",
+                              "status": "029"
+                            },
+                            "14": {
+                              "date": "2025-10-01+05:30",
+                              "status": "029"
+                            },
+                            "15": {
+                              "date": "2025-09-01+05:30",
+                              "status": "029"
+                            },
+                            "16": {
+                              "date": "2025-08-01+05:30",
+                              "status": "029"
+                            },
+                            "17": {
+                              "date": "2025-07-01+05:30",
+                              "status": "029"
+                            },
+                            "18": {
+                              "date": "2025-06-01+05:30",
+                              "status": "STD"
+                            },
+                            "19": {
+                              "date": "2025-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "20": {
+                              "date": "2025-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "21": {
+                              "date": "2025-03-01+05:30",
+                              "status": "STD"
+                            }
+                          },
+                          "startDate": "2026-11-01+05:30",
+                          "endDate": "2025-03-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "SBI",
+                      "accountNumber": "00000040657844008",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2021-12-21+05:30",
+                      "dateReported": "2025-03-31+05:30",
+                      "dateClosed": "2025-03-27+05:30",
+                      "highBalance": "1297000",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "-1",
+                        "interestRate": "10.60",
+                        "dateLastPayment": "2025-03-27+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "706601",
+                        "EMIAmount": "24423",
+                        "termMonths": "72",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2025-03-01+05:30",
+                              "status": "STD"
+                            },
+                            "2": {
+                              "date": "2025-02-01+05:30",
+                              "status": "029"
+                            },
+                            "3": {
+                              "date": "2025-01-01+05:30",
+                              "status": "029"
+                            },
+                            "4": {
+                              "date": "2024-12-01+05:30",
+                              "status": "029"
+                            },
+                            "5": {
+                              "date": "2024-11-01+05:30",
+                              "status": "029"
+                            },
+                            "6": {
+                              "date": "2024-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "7": {
+                              "date": "2024-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "8": {
+                              "date": "2024-08-01+05:30",
+                              "status": "029"
+                            },
+                            "9": {
+                              "date": "2024-07-01+05:30",
+                              "status": "029"
+                            },
+                            "10": {
+                              "date": "2024-06-01+05:30",
+                              "status": "029"
+                            },
+                            "11": {
+                              "date": "2024-05-01+05:30",
+                              "status": "029"
+                            },
+                            "12": {
+                              "date": "2024-04-01+05:30",
+                              "status": "029"
+                            },
+                            "13": {
+                              "date": "2024-03-01+05:30",
+                              "status": "029"
+                            },
+                            "14": {
+                              "date": "2024-02-01+05:30",
+                              "status": "029"
+                            },
+                            "15": {
+                              "date": "2024-01-01+05:30",
+                              "status": "029"
+                            },
+                            "16": {
+                              "date": "2023-12-01+05:30",
+                              "status": "029"
+                            },
+                            "17": {
+                              "date": "2023-11-01+05:30",
+                              "status": "029"
+                            },
+                            "18": {
+                              "date": "2023-10-01+05:30",
+                              "status": "029"
+                            },
+                            "19": {
+                              "date": "2023-09-01+05:30",
+                              "status": "029"
+                            },
+                            "20": {
+                              "date": "2023-08-01+05:30",
+                              "status": "029"
+                            },
+                            "21": {
+                              "date": "2023-07-01+05:30",
+                              "status": "029"
+                            },
+                            "22": {
+                              "date": "2023-06-01+05:30",
+                              "status": "STD"
+                            },
+                            "23": {
+                              "date": "2023-05-01+05:30",
+                              "status": "029"
+                            },
+                            "24": {
+                              "date": "2023-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "25": {
+                              "date": "2023-03-01+05:30",
+                              "status": "029"
+                            },
+                            "26": {
+                              "date": "2023-02-01+05:30",
+                              "status": "STD"
+                            },
+                            "27": {
+                              "date": "2023-01-01+05:30",
+                              "status": "059"
+                            },
+                            "28": {
+                              "date": "2022-12-01+05:30",
+                              "status": "029"
+                            },
+                            "29": {
+                              "date": "2022-11-01+05:30",
+                              "status": "STD"
+                            },
+                            "30": {
+                              "date": "2022-10-01+05:30",
+                              "status": "029"
+                            },
+                            "31": {
+                              "date": "2022-09-01+05:30",
+                              "status": "029"
+                            },
+                            "32": {
+                              "date": "2022-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "33": {
+                              "date": "2022-07-01+05:30",
+                              "status": "029"
+                            },
+                            "34": {
+                              "date": "2022-06-01+05:30",
+                              "status": "029"
+                            },
+                            "35": {
+                              "date": "2022-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "36": {
+                              "date": "2022-04-01+05:30",
+                              "status": "STD"
+                            }
+                          },
+                          "startDate": "2025-03-01+05:30",
+                          "endDate": "2022-04-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "SBI",
+                      "accountNumber": "00000040107973493",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2021-03-31+05:30",
+                      "dateReported": "2021-12-31+05:30",
+                      "dateClosed": "2021-12-21+05:30",
+                      "highBalance": "1290000",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "-1",
+                        "interestRate": "11.00",
+                        "dateLastPayment": "2021-04-02+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "-1",
+                        "EMIAmount": "24621",
+                        "termMonths": "72",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2021-12-01+05:30",
+                              "status": "STD"
+                            },
+                            "2": {
+                              "date": "2021-11-01+05:30",
+                              "status": "STD"
+                            },
+                            "3": {
+                              "date": "2021-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "4": {
+                              "date": "2021-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "5": {
+                              "date": "2021-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "6": {
+                              "date": "2021-07-01+05:30",
+                              "status": "029"
+                            },
+                            "7": {
+                              "date": "2021-06-01+05:30",
+                              "status": "029"
+                            },
+                            "8": {
+                              "date": "2021-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "9": {
+                              "date": "2021-04-01+05:30",
+                              "status": "029"
+                            },
+                            "10": {
+                              "date": "2021-03-01+05:30",
+                              "status": "STD"
+                            }
+                          },
+                          "startDate": "2021-12-01+05:30",
+                          "endDate": "2021-03-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "SBI",
+                      "accountNumber": "00000039432011694",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2020-06-23+05:30",
+                      "dateReported": "2021-04-30+05:30",
+                      "dateClosed": "2021-04-02+05:30",
+                      "highBalance": "700000",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "-1",
+                        "interestRate": "11.00",
+                        "dateLastPayment": "",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "-1",
+                        "EMIAmount": "13181",
+                        "termMonths": "72",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2021-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "2": {
+                              "date": "2021-03-01+05:30",
+                              "status": "STD"
+                            },
+                            "3": {
+                              "date": "2021-02-01+05:30",
+                              "status": "STD"
+                            },
+                            "4": {
+                              "date": "2021-01-01+05:30",
+                              "status": "STD"
+                            },
+                            "5": {
+                              "date": "2020-12-01+05:30",
+                              "status": "STD"
+                            },
+                            "6": {
+                              "date": "2020-11-01+05:30",
+                              "status": "STD"
+                            },
+                            "7": {
+                              "date": "2020-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "8": {
+                              "date": "2020-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "9": {
+                              "date": "2020-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "10": {
+                              "date": "2020-07-01+05:30",
+                              "status": "STD"
+                            },
+                            "11": {
+                              "date": "2020-06-01+05:30",
+                              "status": "STD"
+                            }
+                          },
+                          "startDate": "2021-04-01+05:30",
+                          "endDate": "2020-06-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "BAJAJ FIN LTD",
+                      "accountNumber": "T77RSFFY871542",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2020-05-17+05:30",
+                      "dateReported": "2026-06-30+05:30",
+                      "dateClosed": "2026-06-19+05:30",
+                      "highBalance": "227942",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "3144",
+                      "writtenOffAmtTotal": "3144",
+                      "settlementAmount": "8500",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "03"
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "0",
+                        "interestRate": "18.50",
+                        "dateLastPayment": "2026-06-18+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "5793",
+                        "EMIAmount": "5851",
+                        "termMonths": "72",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "00"
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2026-06-01+05:30",
+                              "status": "000"
+                            },
+                            "2": {
+                              "date": "2026-05-01+05:30",
+                              "status": "030"
+                            },
+                            "3": {
+                              "date": "2026-04-01+05:30",
+                              "status": "029"
+                            },
+                            "4": {
+                              "date": "2026-03-01+05:30",
+                              "status": "030"
+                            },
+                            "5": {
+                              "date": "2026-02-01+05:30",
+                              "status": "027"
+                            },
+                            "6": {
+                              "date": "2026-01-01+05:30",
+                              "status": "030"
+                            },
+                            "7": {
+                              "date": "2025-12-01+05:30",
+                              "status": "030"
+                            },
+                            "8": {
+                              "date": "2025-11-01+05:30",
+                              "status": "029"
+                            },
+                            "9": {
+                              "date": "2025-10-01+05:30",
+                              "status": "030"
+                            },
+                            "10": {
+                              "date": "2025-09-01+05:30",
+                              "status": "000"
+                            },
+                            "11": {
+                              "date": "2025-08-01+05:30",
+                              "status": "000"
+                            },
+                            "12": {
+                              "date": "2025-07-01+05:30",
+                              "status": "000"
+                            },
+                            "13": {
+                              "date": "2025-06-01+05:30",
+                              "status": "000"
+                            },
+                            "14": {
+                              "date": "2025-05-01+05:30",
+                              "status": "000"
+                            },
+                            "15": {
+                              "date": "2025-04-01+05:30",
+                              "status": "000"
+                            },
+                            "16": {
+                              "date": "2025-03-01+05:30",
+                              "status": "000"
+                            },
+                            "17": {
+                              "date": "2025-02-01+05:30",
+                              "status": "000"
+                            },
+                            "18": {
+                              "date": "2025-01-01+05:30",
+                              "status": "000"
+                            },
+                            "19": {
+                              "date": "2024-12-01+05:30",
+                              "status": "000"
+                            },
+                            "20": {
+                              "date": "2024-11-01+05:30",
+                              "status": "000"
+                            },
+                            "21": {
+                              "date": "2024-10-01+05:30",
+                              "status": "000"
+                            },
+                            "22": {
+                              "date": "2024-09-01+05:30",
+                              "status": "000"
+                            },
+                            "23": {
+                              "date": "2024-08-01+05:30",
+                              "status": "000"
+                            },
+                            "24": {
+                              "date": "2024-07-01+05:30",
+                              "status": "000"
+                            },
+                            "25": {
+                              "date": "2024-06-01+05:30",
+                              "status": "000"
+                            },
+                            "26": {
+                              "date": "2024-05-01+05:30",
+                              "status": "000"
+                            },
+                            "27": {
+                              "date": "2024-04-01+05:30",
+                              "status": "000"
+                            },
+                            "28": {
+                              "date": "2024-03-01+05:30",
+                              "status": "000"
+                            },
+                            "29": {
+                              "date": "2024-02-01+05:30",
+                              "status": "000"
+                            },
+                            "30": {
+                              "date": "2024-01-01+05:30",
+                              "status": "000"
+                            },
+                            "31": {
+                              "date": "2023-12-01+05:30",
+                              "status": "000"
+                            },
+                            "32": {
+                              "date": "2023-11-01+05:30",
+                              "status": "000"
+                            },
+                            "33": {
+                              "date": "2023-10-01+05:30",
+                              "status": "000"
+                            },
+                            "34": {
+                              "date": "2023-09-01+05:30",
+                              "status": "000"
+                            },
+                            "35": {
+                              "date": "2023-08-01+05:30",
+                              "status": "000"
+                            },
+                            "36": {
+                              "date": "2023-07-01+05:30",
+                              "status": "000"
+                            }
+                          },
+                          "startDate": "2026-06-01+05:30",
+                          "endDate": "2023-07-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "BAJAJ FIN LTD",
+                      "accountNumber": "T77RSLFI162464",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2019-10-20+05:30",
+                      "dateReported": "2025-09-15+05:30",
+                      "dateClosed": "2025-07-29+05:30",
+                      "highBalance": "60770",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "0",
+                        "interestRate": "18.00",
+                        "dateLastPayment": "2025-07-29+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "-1",
+                        "EMIAmount": "1544",
+                        "termMonths": "60",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "00"
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2025-09-01+05:30",
+                              "status": "000"
+                            },
+                            "2": {
+                              "date": "2025-08-01+05:30",
+                              "status": "000"
+                            },
+                            "3": {
+                              "date": "2025-07-01+05:30",
+                              "status": "000"
+                            },
+                            "4": {
+                              "date": "2025-06-01+05:30",
+                              "status": "000"
+                            },
+                            "5": {
+                              "date": "2025-05-01+05:30",
+                              "status": "000"
+                            },
+                            "6": {
+                              "date": "2025-04-01+05:30",
+                              "status": "000"
+                            },
+                            "7": {
+                              "date": "2025-03-01+05:30",
+                              "status": "000"
+                            },
+                            "8": {
+                              "date": "2025-02-01+05:30",
+                              "status": "000"
+                            },
+                            "9": {
+                              "date": "2025-01-01+05:30",
+                              "status": "000"
+                            },
+                            "10": {
+                              "date": "2024-12-01+05:30",
+                              "status": "000"
+                            },
+                            "11": {
+                              "date": "2024-11-01+05:30",
+                              "status": "000"
+                            },
+                            "12": {
+                              "date": "2024-10-01+05:30",
+                              "status": "000"
+                            },
+                            "13": {
+                              "date": "2024-09-01+05:30",
+                              "status": "000"
+                            },
+                            "14": {
+                              "date": "2024-08-01+05:30",
+                              "status": "000"
+                            },
+                            "15": {
+                              "date": "2024-07-01+05:30",
+                              "status": "000"
+                            },
+                            "16": {
+                              "date": "2024-06-01+05:30",
+                              "status": "000"
+                            },
+                            "17": {
+                              "date": "2024-05-01+05:30",
+                              "status": "000"
+                            },
+                            "18": {
+                              "date": "2024-04-01+05:30",
+                              "status": "000"
+                            },
+                            "19": {
+                              "date": "2024-03-01+05:30",
+                              "status": "000"
+                            },
+                            "20": {
+                              "date": "2024-02-01+05:30",
+                              "status": "000"
+                            },
+                            "21": {
+                              "date": "2024-01-01+05:30",
+                              "status": "000"
+                            },
+                            "22": {
+                              "date": "2023-12-01+05:30",
+                              "status": "000"
+                            },
+                            "23": {
+                              "date": "2023-11-01+05:30",
+                              "status": "000"
+                            },
+                            "24": {
+                              "date": "2023-10-01+05:30",
+                              "status": "000"
+                            },
+                            "25": {
+                              "date": "2023-09-01+05:30",
+                              "status": "000"
+                            },
+                            "26": {
+                              "date": "2023-08-01+05:30",
+                              "status": "000"
+                            },
+                            "27": {
+                              "date": "2023-07-01+05:30",
+                              "status": "000"
+                            },
+                            "28": {
+                              "date": "2023-06-01+05:30",
+                              "status": "000"
+                            },
+                            "29": {
+                              "date": "2023-05-01+05:30",
+                              "status": "000"
+                            },
+                            "30": {
+                              "date": "2023-04-01+05:30",
+                              "status": "000"
+                            },
+                            "31": {
+                              "date": "2023-03-01+05:30",
+                              "status": "000"
+                            },
+                            "32": {
+                              "date": "2023-02-01+05:30",
+                              "status": "000"
+                            },
+                            "33": {
+                              "date": "2023-01-01+05:30",
+                              "status": "000"
+                            },
+                            "34": {
+                              "date": "2022-12-01+05:30",
+                              "status": "000"
+                            },
+                            "35": {
+                              "date": "2022-11-01+05:30",
+                              "status": "000"
+                            },
+                            "36": {
+                              "date": "2022-10-01+05:30",
+                              "status": "000"
+                            }
+                          },
+                          "startDate": "2025-09-01+05:30",
+                          "endDate": "2022-10-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "BAJAJ FIN LTD",
+                      "accountNumber": "T77RSL0103120639",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2019-01-31+05:30",
+                      "dateReported": "2021-03-31+05:30",
+                      "dateClosed": "2020-05-17+05:30",
+                      "highBalance": "249559",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "0",
+                        "interestRate": "-1.00",
+                        "dateLastPayment": "2020-05-17+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "-1",
+                        "EMIAmount": "-1",
+                        "termMonths": "-1",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2021-03-01+05:30",
+                              "status": "000"
+                            },
+                            "2": {
+                              "date": "2021-02-01+05:30",
+                              "status": "000"
+                            },
+                            "3": {
+                              "date": "2021-01-01+05:30",
+                              "status": "000"
+                            },
+                            "4": {
+                              "date": "2020-12-01+05:30",
+                              "status": "000"
+                            },
+                            "5": {
+                              "date": "2020-11-01+05:30",
+                              "status": "000"
+                            },
+                            "6": {
+                              "date": "2020-10-01+05:30",
+                              "status": "000"
+                            },
+                            "7": {
+                              "date": "2020-09-01+05:30",
+                              "status": "000"
+                            },
+                            "8": {
+                              "date": "2020-08-01+05:30",
+                              "status": "000"
+                            },
+                            "9": {
+                              "date": "2020-07-01+05:30",
+                              "status": "000"
+                            },
+                            "10": {
+                              "date": "2020-06-01+05:30",
+                              "status": "000"
+                            },
+                            "11": {
+                              "date": "2020-05-01+05:30",
+                              "status": "000"
+                            },
+                            "12": {
+                              "date": "2020-04-01+05:30",
+                              "status": "000"
+                            },
+                            "13": {
+                              "date": "2020-03-01+05:30",
+                              "status": "000"
+                            },
+                            "14": {
+                              "date": "2020-02-01+05:30",
+                              "status": "000"
+                            },
+                            "15": {
+                              "date": "2020-01-01+05:30",
+                              "status": "000"
+                            },
+                            "16": {
+                              "date": "2019-12-01+05:30",
+                              "status": "000"
+                            },
+                            "17": {
+                              "date": "2019-11-01+05:30",
+                              "status": "000"
+                            },
+                            "18": {
+                              "date": "2019-10-01+05:30",
+                              "status": "000"
+                            },
+                            "19": {
+                              "date": "2019-09-01+05:30",
+                              "status": "000"
+                            },
+                            "20": {
+                              "date": "2019-08-01+05:30",
+                              "status": "000"
+                            },
+                            "21": {
+                              "date": "2019-07-01+05:30",
+                              "status": "000"
+                            },
+                            "22": {
+                              "date": "2019-06-01+05:30",
+                              "status": "000"
+                            },
+                            "23": {
+                              "date": "2019-05-01+05:30",
+                              "status": "000"
+                            },
+                            "24": {
+                              "date": "2019-04-01+05:30",
+                              "status": "000"
+                            },
+                            "25": {
+                              "date": "2019-03-01+05:30",
+                              "status": "000"
+                            },
+                            "26": {
+                              "date": "2019-02-01+05:30",
+                              "status": "000"
+                            }
+                          },
+                          "startDate": "2021-03-01+05:30",
+                          "endDate": "2019-02-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "SBI",
+                      "accountNumber": "00000020292961039",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2018-11-16+05:30",
+                      "dateReported": "2026-10-31+05:30",
+                      "dateClosed": "",
+                      "highBalance": "0",
+                      "currentBalance": "-179",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "-1",
+                        "interestRate": "2.50",
+                        "dateLastPayment": "2026-10-31+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "800",
+                        "EMIAmount": "-1",
+                        "termMonths": "-1",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2026-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "2": {
+                              "date": "2026-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "3": {
+                              "date": "2026-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "4": {
+                              "date": "2026-07-01+05:30",
+                              "status": "STD"
+                            },
+                            "5": {
+                              "date": "2026-06-01+05:30",
+                              "status": "STD"
+                            },
+                            "6": {
+                              "date": "2026-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "7": {
+                              "date": "2026-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "8": {
+                              "date": "2026-03-01+05:30",
+                              "status": "STD"
+                            },
+                            "9": {
+                              "date": "2026-02-01+05:30",
+                              "status": "STD"
+                            },
+                            "10": {
+                              "date": "2026-01-01+05:30",
+                              "status": "STD"
+                            },
+                            "11": {
+                              "date": "2025-12-01+05:30",
+                              "status": "STD"
+                            },
+                            "12": {
+                              "date": "2025-11-01+05:30",
+                              "status": "STD"
+                            },
+                            "13": {
+                              "date": "2025-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "14": {
+                              "date": "2025-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "15": {
+                              "date": "2025-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "16": {
+                              "date": "2025-07-01+05:30",
+                              "status": "STD"
+                            },
+                            "17": {
+                              "date": "2025-06-01+05:30",
+                              "status": "STD"
+                            },
+                            "18": {
+                              "date": "2025-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "19": {
+                              "date": "2025-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "20": {
+                              "date": "2025-03-01+05:30",
+                              "status": "STD"
+                            },
+                            "21": {
+                              "date": "2025-02-01+05:30",
+                              "status": "STD"
+                            },
+                            "22": {
+                              "date": "2025-01-01+05:30",
+                              "status": "STD"
+                            },
+                            "23": {
+                              "date": "2024-12-01+05:30",
+                              "status": "STD"
+                            },
+                            "24": {
+                              "date": "2024-11-01+05:30",
+                              "status": "STD"
+                            },
+                            "25": {
+                              "date": "2024-10-01+05:30",
+                              "status": "STD"
+                            },
+                            "26": {
+                              "date": "2024-09-01+05:30",
+                              "status": "STD"
+                            },
+                            "27": {
+                              "date": "2024-08-01+05:30",
+                              "status": "STD"
+                            },
+                            "28": {
+                              "date": "2024-07-01+05:30",
+                              "status": "STD"
+                            },
+                            "29": {
+                              "date": "2024-06-01+05:30",
+                              "status": "STD"
+                            },
+                            "30": {
+                              "date": "2024-05-01+05:30",
+                              "status": "STD"
+                            },
+                            "31": {
+                              "date": "2024-04-01+05:30",
+                              "status": "STD"
+                            },
+                            "32": {
+                              "date": "2024-03-01+05:30",
+                              "status": "STD"
+                            },
+                            "33": {
+                              "date": "2024-02-01+05:30",
+                              "status": "STD"
+                            },
+                            "34": {
+                              "date": "2024-01-01+05:30",
+                              "status": "STD"
+                            },
+                            "35": {
+                              "date": "2023-12-01+05:30",
+                              "status": "STD"
+                            },
+                            "36": {
+                              "date": "2023-11-01+05:30",
+                              "status": "STD"
+                            }
+                          },
+                          "startDate": "2026-10-01+05:30",
+                          "endDate": "2023-11-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "05"
+                  },
+                  {
+                    "Tradeline": {
+                      "creditorName": "HERO FINCORP",
+                      "accountNumber": "JALTWL00100002751093",
+                      "AccountDesignator": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": "1"
+                      },
+                      "dateOpened": "2018-08-08+05:30",
+                      "dateReported": "2020-12-31+05:30",
+                      "dateClosed": "2020-12-04+05:30",
+                      "highBalance": "44004",
+                      "currentBalance": "0",
+                      "writtenOffPrincipal": "-1",
+                      "writtenOffAmtTotal": "-1",
+                      "settlementAmount": "0",
+                      "CreditFacilityStatus": {
+                        "abbreviation": "",
+                        "description": "",
+                        "rank": "100000",
+                        "symbol": ""
+                      },
+                      "GrantedTrade": {
+                        "amountPastDue": "0",
+                        "interestRate": "16.50",
+                        "dateLastPayment": "2020-11-24+05:30",
+                        "CreditLimit": "-1",
+                        "actualPaymentAmount": "56075",
+                        "EMIAmount": "99",
+                        "termMonths": "25",
+                        "collateral": "-1",
+                        "CashLimit": "-1",
+                        "CollateralType": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": ""
+                        },
+                        "PaymentFrequency": {
+                          "abbreviation": "",
+                          "description": "",
+                          "rank": "100000",
+                          "symbol": "03"
+                        },
+                        "PayStatusHistory": {
+                          "MonthlyPayStatus": {
+                            "1": {
+                              "date": "2020-12-01+05:30",
+                              "status": "000"
+                            },
+                            "2": {
+                              "date": "2020-11-01+05:30",
+                              "status": "000"
+                            },
+                            "3": {
+                              "date": "2020-10-01+05:30",
+                              "status": "000"
+                            },
+                            "4": {
+                              "date": "2020-09-01+05:30",
+                              "status": "053"
+                            },
+                            "5": {
+                              "date": "2020-08-01+05:30",
+                              "status": "023"
+                            },
+                            "6": {
+                              "date": "2020-07-01+05:30",
+                              "status": "000"
+                            },
+                            "7": {
+                              "date": "2020-06-01+05:30",
+                              "status": "000"
+                            },
+                            "8": {
+                              "date": "2020-05-01+05:30",
+                              "status": "000"
+                            },
+                            "9": {
+                              "date": "2020-04-01+05:30",
+                              "status": "000"
+                            },
+                            "10": {
+                              "date": "2020-03-01+05:30",
+                              "status": "000"
+                            },
+                            "11": {
+                              "date": "2020-02-01+05:30",
+                              "status": "000"
+                            },
+                            "12": {
+                              "date": "2020-01-01+05:30",
+                              "status": "000"
+                            },
+                            "13": {
+                              "date": "2019-12-01+05:30",
+                              "status": "000"
+                            },
+                            "14": {
+                              "date": "2019-11-01+05:30",
+                              "status": "000"
+                            },
+                            "15": {
+                              "date": "2019-10-01+05:30",
+                              "status": "000"
+                            },
+                            "16": {
+                              "date": "2019-09-01+05:30",
+                              "status": "000"
+                            },
+                            "17": {
+                              "date": "2019-08-01+05:30",
+                              "status": "000"
+                            },
+                            "18": {
+                              "date": "2019-07-01+05:30",
+                              "status": "000"
+                            },
+                            "19": {
+                              "date": "2019-06-01+05:30",
+                              "status": "000"
+                            },
+                            "20": {
+                              "date": "2019-05-01+05:30",
+                              "status": "000"
+                            },
+                            "21": {
+                              "date": "2019-04-01+05:30",
+                              "status": "000"
+                            },
+                            "22": {
+                              "date": "2019-03-01+05:30",
+                              "status": "000"
+                            },
+                            "23": {
+                              "date": "2019-02-01+05:30",
+                              "status": "000"
+                            },
+                            "24": {
+                              "date": "2019-01-01+05:30",
+                              "status": "000"
+                            },
+                            "25": {
+                              "date": "2018-12-01+05:30",
+                              "status": "000"
+                            },
+                            "26": {
+                              "date": "2018-11-01+05:30",
+                              "status": "000"
+                            },
+                            "27": {
+                              "date": "2018-10-01+05:30",
+                              "status": "000"
+                            },
+                            "28": {
+                              "date": "2018-09-01+05:30",
+                              "status": "000"
+                            }
+                          },
+                          "startDate": "2020-12-01+05:30",
+                          "endDate": "2018-09-01+05:30"
+                        }
+                      }
+                    },
+                    "accountTypeSymbol": "13"
+                  }
+                ],
+                "InquiryPartition": [
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SBI",
+                      "inquiryDate": "2026-11-16+05:30",
+                      "inquiryType": "05",
+                      "amount": "1000000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "BAJAJ FIN LTD",
+                      "inquiryDate": "2026-10-18+05:30",
+                      "inquiryType": "06",
+                      "amount": "20000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SHRIRAMTRAN",
+                      "inquiryDate": "2026-10-08+05:30",
+                      "inquiryType": "50",
+                      "amount": "700000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SHRIRAMTRAN",
+                      "inquiryDate": "2026-08-20+05:30",
+                      "inquiryType": "50",
+                      "amount": "700000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "AXIS BANK",
+                      "inquiryDate": "2025-12-08+05:30",
+                      "inquiryType": "05",
+                      "amount": "800000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SHRIRAMFIN",
+                      "inquiryDate": "2025-11-16+05:30",
+                      "inquiryType": "13",
+                      "amount": "10000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SBI",
+                      "inquiryDate": "2025-03-26+05:30",
+                      "inquiryType": "05",
+                      "amount": "1200000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "SBI",
+                      "inquiryDate": "2025-02-28+05:30",
+                      "inquiryType": "05",
+                      "amount": "1500000"
+                    }
+                  },
+                  {
+                    "Inquiry": {
+                      "subscriberName": "HDFC BANK",
+                      "inquiryDate": "2023-12-02+05:30",
+                      "inquiryType": "05",
+                      "amount": "2000000"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
