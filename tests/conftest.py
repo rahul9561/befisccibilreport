@@ -34,8 +34,12 @@ def sample(sample_doc) -> dict:
 
 
 def truelink(doc: dict) -> dict:
-    return doc["raw_response"]["result"]["cibilData"]["GetCustomerAssetsResponse"][
-        "GetCustomerAssetsSuccess"]["Asset"]["TrueLinkCreditReport"]
+    """The TrueLinkCreditReport object, wherever the envelope puts it."""
+    from befisc_reportforge.validators import find_key
+
+    found = find_key(doc, "TrueLinkCreditReport")
+    assert found, "input has no TrueLinkCreditReport"
+    return found[0]
 
 
 def pdf_text(data: bytes) -> list[str]:
