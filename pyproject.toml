@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "befisc-reportforge"
-version = "1.0.2"
+version = "1.0.3"
 description = "JSON-driven PDF engine for TransUnion CIBIL consumer credit reports"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,6 +22,10 @@ befisc-reportforge = "befisc_reportforge.__main__:main"
 
 [tool.setuptools.packages.find]
 include = ["befisc_reportforge*"]
+
+# Logo + Roboto fonts are shipped inside the package so every install has them.
+[tool.setuptools.package-data]
+befisc_reportforge = ["assets/*.svg", "assets/Roboto/*.txt", "assets/Roboto/static/*.ttf"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

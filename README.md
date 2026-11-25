@@ -91,11 +91,13 @@ pip install /path/to/befisccibilpdf             # regular install; see "Assets" 
 The runtime dependencies are `reportlab`, `svglib` and `pillow`. The tests and
 the comparison tools also need `pytest` and `pymupdf`.
 
-**Assets.** The logo and the Roboto fonts are loaded from the project's
-`assets/` folder. With a regular (non-editable) install, set either
-`BEFISC_REPORTFORGE_ASSETS=/path/to/assets` or
-`PDFEngine(assets_dir=...)`. Helvetica needs no font files. If the logo is
-missing, it is skipped with a warning, or raises an error in strict mode.
+**Assets.** The logo (`logo.svg`) and the four Roboto fonts are bundled
+inside the package (`befisc_reportforge/assets/`), so every install method
+(wheel, `pip install`, editable, Docker) has them with no extra setup. To use
+your own files, put them in a folder with the same layout and set
+`PDFEngine(assets_dir=...)` or `BEFISC_REPORTFORGE_ASSETS=/path/to/assets`. Any
+file missing from that folder falls back to the bundled copy. To use a
+different logo file, pass `logo_path=...`.
 
 ## Usage
 
@@ -161,7 +163,7 @@ engine = PDFEngine(EngineConfig(page_decorations=True, logo_path="branding/logo.
 | `font_family` | `"helvetica"` | **Font switch.** `"helvetica"`: built-in, same widths as the reference. `"roboto"`: bundled TTF, embedded, full Unicode. |
 | `page_decorations` | `False` | **One flag** that turns on a running header, a running footer and "Page X of Y". Off by default because the reference has none. |
 | `template` | `"cibil_cir"` | Report template name (see `available_templates()`) |
-| `assets_dir` | `<project>/assets` or `$BEFISC_REPORTFORGE_ASSETS` | Where fonts and the logo are found |
+| `assets_dir` | `None`: `$BEFISC_REPORTFORGE_ASSETS`, then the bundled assets | Folder to search first for the fonts and the logo |
 | `logo_path` | `assets/logo.svg` | `.svg`, `.png`, `.jpg` or `.jpeg` |
 | `running_header_text` | `"CONSUMER CIR"` | Text in the title bar and in the running header |
 | `running_footer_text` | `"TransUnion CIBIL - Consumer Credit Information Report"` | Running-footer text |
@@ -324,8 +326,8 @@ your own model with matching renderers, then register a template that uses it.
 ```python
 # settings.py
 BEFISC_REPORTFORGE = {"font_family": "helvetica", "page_decorations": False}
-# If the package is not installed in editable mode, point it at the assets:
-# os.environ.setdefault("BEFISC_REPORTFORGE_ASSETS", str(BASE_DIR / "pdf_assets"))
+# Logo and fonts are bundled in the package; nothing else to configure.
+# To use your own logo: BEFISC_REPORTFORGE = {"logo_path": BASE_DIR / "static/img/logo.svg"}
 ```
 
 ```python
@@ -464,8 +466,8 @@ pages 1–3, and the largest is 1.7 pt.
 
 | Symptom | Fix |
 |---|---|
-| `AssetError: Font file … not found` | Set `assets_dir` or `BEFISC_REPORTFORGE_ASSETS`. This applies to `font_family="roboto"` only. |
-| Logo missing, with "logo skipped" in the log | Check `logo_path` or `assets_dir`. Use `strict=True` to make this an error. |
+| `AssetError: Font file … not found` | Reinstall the package (version 1.0.3 or later bundles the fonts), or fix your `assets_dir` |
+| Logo missing, with "logo skipped" in the log | Versions before 1.0.3 looked for `<project>/assets`, which a wheel install doesn't have; upgrade. If you passed `logo_path`, check that the file exists. Use `strict=True` to make a missing logo an error. |
 | `?` in place of non-Latin characters | Helvetica only covers Western European characters; use `font_family="roboto"` |
 | `ValidationError: No credit report found` | The JSON has no `TrueLinkCreditReport` object; check the bureau response |
 | `ValidationError: Bureau response is not successful` | The input has `"success": false`; the bureau call failed upstream |

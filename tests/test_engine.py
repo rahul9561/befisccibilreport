@@ -142,3 +142,34 @@ def test_logo_variants(tmp_path, sample_doc):
     assert any("logo skipped" in w for w in report.warnings)
     with pytest.raises(AssetError):
         PDFEngine(logo_path=tmp_path / "missing.svg", strict=True).render_bytes(sample_doc)
+
+
+def test_assets_are_bundled_inside_the_package(monkeypatch, tmp_path):
+    """Regression: logo vanished when installed as a wheel (no <project>/assets)."""
+    from befisc_reportforge.config import BUNDLED_ASSETS_DIR, PACKAGE_DIR, resolve_asset
+
+    assert BUNDLED_ASSETS_DIR.parent == PACKAGE_DIR
+    assert (BUNDLED_ASSETS_DIR / "logo.svg").is_file()
+    for style in ("Regular", "Bold", "Italic", "BoldItalic"):
+        assert (BUNDLED_ASSETS_DIR / "Roboto" / "static" / f"Roboto-{style}.ttf").is_file()
+
+    # Explicit/env dirs that lack the file fall back to the bundled copy.
+    monkeypatch.setenv("BEFISC_REPORTFORGE_ASSETS", str(tmp_path / "nowhere"))
+    assert resolve_asset("logo.svg", tmp_path) == BUNDLED_ASSETS_DIR / "logo.svg"
+    # An env dir that has the file wins over the bundled copy.
+    (tmp_path / "logo.svg").write_text((BUNDLED_ASSETS_DIR / "logo.svg").read_text(encoding="utf-8"), encoding="utf-8")
+    monkeypatch.setenv("BEFISC_REPORTFORGE_ASSETS", str(tmp_path))
+    assert resolve_asset("logo.svg") == tmp_path / "logo.svg"
+
+
+def test_logo_rendered_with_default_config(sample_doc):
+    import pymupdf
+
+    engine = PDFEngine()
+    report = engine.parse(sample_doc)
+    buf = io.BytesIO()
+    engine.render(report, buf)
+    assert not any("logo" in w for w in report.warnings)
+    with pymupdf.open(stream=buf.getvalue(), filetype="pdf") as d:
+        top = [p for p in d[0].get_drawings() if p["rect"].y1 < 80]   # logo area
+    assert len(top) > 5

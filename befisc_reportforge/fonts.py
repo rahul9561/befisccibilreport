@@ -10,12 +10,13 @@ from __future__ import annotations
 import logging
 import threading
 from pathlib import Path
+from typing import Optional
 
 from reportlab.lib.fonts import addMapping
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFError, TTFont
 
-from .config import FontFamily
+from .config import FontFamily, resolve_asset
 from .exceptions import AssetError
 
 log = logging.getLogger(__name__)
@@ -23,7 +24,7 @@ _lock = threading.Lock()
 _registered: set[str] = set()
 
 
-def register_family(family: FontFamily, assets_dir: Path) -> None:
+def register_family(family: FontFamily, assets_dir: Optional[Path] = None) -> None:
     """Register ``family``'s TTF files (idempotent and thread-safe)."""
     if family.is_builtin:
         return
@@ -31,7 +32,7 @@ def register_family(family: FontFamily, assets_dir: Path) -> None:
         if family.name in _registered:
             return
         for font_name, rel in family.files:
-            path = Path(assets_dir) / rel
+            path = resolve_asset(rel, assets_dir)
             if not path.is_file():
                 raise AssetError(f"Font file for {font_name!r} not found: {path}")
             try:

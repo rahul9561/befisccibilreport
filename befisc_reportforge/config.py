@@ -17,8 +17,37 @@ from reportlab.lib.pagesizes import A4
 
 PACKAGE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = PACKAGE_DIR.parent
-# Fonts/logo location: $BEFISC_REPORTFORGE_ASSETS, else <project>/assets.
-DEFAULT_ASSETS_DIR = Path(os.environ.get("BEFISC_REPORTFORGE_ASSETS", PROJECT_DIR / "assets"))
+# Logo + Roboto fonts ship inside the package, so they are available however
+# the package is installed (wheel, pip install, editable, Docker ...).
+BUNDLED_ASSETS_DIR = PACKAGE_DIR / "assets"
+ASSETS_ENV_VAR = "BEFISC_REPORTFORGE_ASSETS"
+
+
+def asset_dirs(assets_dir: Optional[Path] = None) -> list[Path]:
+    """Directories searched for an asset, in priority order.
+
+    1. ``assets_dir`` passed to the engine (explicit override)
+    2. ``$BEFISC_REPORTFORGE_ASSETS`` (read at call time, so Django settings
+       can set it before the first report is generated)
+    3. the copy bundled inside the package (always present)
+    """
+    dirs = []
+    if assets_dir:
+        dirs.append(Path(assets_dir))
+    env = os.environ.get(ASSETS_ENV_VAR)
+    if env:
+        dirs.append(Path(env))
+    dirs.append(BUNDLED_ASSETS_DIR)
+    return dirs
+
+
+def resolve_asset(relative: str, assets_dir: Optional[Path] = None) -> Path:
+    """First existing ``<dir>/<relative>``; the bundled path if none exists."""
+    for d in asset_dirs(assets_dir):
+        candidate = d / relative
+        if candidate.is_file():
+            return candidate
+    return BUNDLED_ASSETS_DIR / relative
 
 
 @dataclass(frozen=True)
@@ -143,8 +172,8 @@ class EngineConfig:
     template: str = "cibil_cir"
     font_family: str = "helvetica"
     page_decorations: bool = False
-    assets_dir: Path = DEFAULT_ASSETS_DIR
-    logo_path: Optional[Path] = None          # default: <assets_dir>/logo.svg
+    assets_dir: Optional[Path] = None         # None: $BEFISC_REPORTFORGE_ASSETS, then bundled assets
+    logo_path: Optional[Path] = None          # None: logo.svg found via assets_dir / env / bundled
     running_header_text: str = "CONSUMER CIR"
     running_footer_text: str = "TransUnion CIBIL - Consumer Credit Information Report"
     title: str = "Consumer CIR"
@@ -153,7 +182,9 @@ class EngineConfig:
     use_raw_bureau_data: bool = True          # enrich from base64 OriginalData if present
 
     def resolved_logo(self) -> Path:
-        return Path(self.logo_path) if self.logo_path else Path(self.assets_dir) / "logo.svg"
+        if self.logo_path:
+            return Path(self.logo_path)       # explicit file: used as given
+        return resolve_asset("logo.svg", self.assets_dir)
 
     def build_theme(self) -> Theme:
         from .exceptions import AssetError  # local import avoids a cycle

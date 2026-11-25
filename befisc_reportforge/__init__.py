@@ -24,7 +24,7 @@ from .models import CreditReport
 from .parser import parse_report
 from .renderers import available_sections, section
 
-__version__ = "1.0.0"
+__version__ = "1.0.3"
 
 logging.getLogger(__name__).addHandler(logging.NullHandler())
 
